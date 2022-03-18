@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html{
+    font-family: 'Roboto',sans-serif;
+    max-height: 100vh;
+}
+header div{ 
+    background-color: #1CD1B0;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px 903px 10px 10px;
+    color:black;
+}
+header h1{
+    background-color:#00669F;
+    display: flex;
+    justify-content: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    padding: 28px 868px 26px 28px;
+    color:black;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);    
+}
+body{display: flex;
+    flex-direction: column;}
+main{
+    display: flex;
+    flex-direction: space-evenly;
+    margin-top: 154px;
+    margin-bottom: 203px;
+
+} 
+main section{
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    height: 529px;
+    display: flex;
+    /*justify-content: space-evenly;*/
+    border-radius: 16px 16px 0px 0px;
+    margin: 0px 32px 0px 30px;
+} 
+main section article{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 529px;
+}
+main section article div.fondo{
+    /*width: 300px;*/
+    height: 193px;
+    background-image: url(../img/batmanFondo.png);
+    background-size:cover;
+}
+
+main section article div i{
+    position: absolute;
+    left: 53px;
+    right: 941px;
+    top: 308.88px;
+    bottom: 688.88;
+    font-size: 24px;
+    color: red;
+    position: top;
+}
+main section article img{
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 122px;
+    top: 421px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+main section article h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    padding: 74px 89px 10px 89px;
+
+}
+main section article p{
+    margin: 0px 17px 37px 16px;
+}
+main section article button{
+    margin: 0px 86.22px 18.48px 85px;
+    width: 128.78px;
+    height: 48.52px;
+    color:white;
+    background: #00669F;
+    
+}
+
+/*code HARLEY QUINN*/
+
+main section article.harle{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 529px;
+}
+main section article div.fondo2{
+    /*width: 300px;*/
+    height: 193px;
+    background-image: url(../img/HarleFondo.png);
+    background-size:cover;
+}
+main section article.harle div i{
+    position: absolute;
+    left: 411px;
+    right: 611px;
+    top: 308.88px;
+    bottom: 688.88;
+    font-size: 24px;
+    color: red;
+    position: top;
+}
+main section article.harle img{
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    left: 480px;
+    top: 419px;
+    z-index: 1;
+    border-radius: 50%;
+}
+main section article.harle h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform:capitalize;
+    padding: 74px 54px 10px 65px;
+    text-align: center;
+}
+
+/*SEGUNDO BATMAN*/
+
+main section article.segundo{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 529px;
+}
+main section article.segundo div.fondo{
+    /*width: 300px;*/
+    height: 193px;
+    background-image: url(../img/batmanFondo.png);
+    background-size:cover;
+}
+main section article.segundo div i{
+    position: absolute;
+    left: 782px;
+    right: 281px;
+    top: 308.88px;
+    bottom: 688.88;
+    font-size: 24px;
+    color: red;
+    position: top;
+}
+main section article.segundo img{
+    position: absolute;
+    width: 122px;
+    height: 120px;
+    left: 845px;
+    top: 420px;
+    z-index: 1;
+    border-radius: 50%;
+}
+body footer p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px 0px 16px 16px;
+    
+    max-height: 100vh;
+    /*height: 51px;*/
+    /*left: 0px;
+    top: 972px;*/
+    color:white;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+body footer p span{
+    text-transform: uppercase;
+}
